@@ -1,0 +1,1 @@
+This is a project to render to isomorphic banner ad.

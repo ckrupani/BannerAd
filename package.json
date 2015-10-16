@@ -1,0 +1,37 @@
+{
+  "name": "react-isomorphic-banner-ad",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "ejs": "~0.8.5",
+    "express": "~4.0.0",
+    "griddle-react": "^0.1.19",
+    "path": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-addons-test-utils": "*",
+    "babel-jest": "*",
+    "jest-cli": "*"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "~3.20.0",
+    "gulp": "~3.8.9",
+    "gulp-browserify": "~0.5.0",
+    "gulp-concat": "~2.4.1",
+    "node-jsx": "~0.2.0",
+    "react-tools": "^0.12.0",
+    "reactify": "0.15.2"
+  }
+}
